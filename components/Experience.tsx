@@ -3,7 +3,7 @@ import React from 'react';
 
 const Experience: React.FC = () => {
     return (
-        <section id="experience" className="py-12 bg-gradient-to-r from-gray-500 to-gray-900 w-full gradient-background">
+        <section id="experience" className="py-12 bg-gradient-to-r from-gray-600 to-gray-900 w-full gradient-background">
             <div className="container mx-auto">
                 <h2 className="text-4xl font-bold text-center mb-12 text-white">Experience</h2>
                 <div className="space-y-6">

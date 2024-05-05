@@ -9,13 +9,13 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "GeoSnap",
-    description: "Trained a Yolov5 Computer Vision model and developed UI for a mobile and desktop app that identifies wildlife in wildlife footage.",
-    tags: ["React Native", "Yolov5", "Node.js"],
+    title: "Ho-Ho-Hacks",
+    description: "Use Java libaries to create a battle royale game that mimics Yoho-Ho-Ho. I worked to create the game logic and the UI.",
+    tags: ["Java", "Graphics", "Animation"],
     imageUrl: "https://source.unsplash.com/random/800x600?leopard"
   },
   {
-    title: "Nivaro",
+    title: "",
     description: "Created a curriculum teaching its 700+ students how to create OpenAI-powered chatbots. I also worked on the website and optimized the chatbot.",
     tags: ["React", "Next.js", "OpenAI"],
     imageUrl: "https://source.unsplash.com/random/800x600?education"
@@ -33,7 +33,7 @@ const ProjectCard: React.FC<Project> = ({ title, description, tags, imageUrl }) 
         <p className="text-gray-300 mb-4">{description}</p>
         <div className="flex flex-wrap">
           {tags.map((tag, index) => (
-            <span key={index} className="bg-gray-700 text-gray-100 text-sm font-semibold mr-2 mb-2 py-1 px-3 rounded-full">
+            <span key={index} className="bg-gray-600 text-gray-100 text-sm font-semibold mr-2 mb-2 py-1 px-3 rounded-full">
               {tag}
             </span>
           ))}
