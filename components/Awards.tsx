@@ -54,7 +54,7 @@ const Awards: FC = () => {
   const [selectedAward, setSelectedAward] = useState<Award | null>(null);
 
   return (
-    <section id="awards" className="py-12 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 w-full">
+    <section id="awards" className="bg-gradient-to-r from-gray-600 to-gray-900 text-white rounded-lg shadow-xl p-6 w-full">
       <div className="container mx-auto px-5">
         <h2 className="text-4xl font-bold text-center mb-12 text-white">Awards</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

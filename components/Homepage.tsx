@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Header: React.FC = () => {
     return (
-        <header className="bg-gradient-to-r from-indigo-300 via-purple-500 to-pink-300 shadow-lg w-full">
+        <header className="py-12 bg-gradient-to-r from-gray-500 to-gray-900 w-full gradient-background">
             <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center py-8 text-white">
                 {/* Name and Logo */}
                 <a href="#home" className="flex title-font font-medium items-center mb-4 md:mb-0">

@@ -3,13 +3,13 @@ import React from 'react';
 
 const Experience: React.FC = () => {
     return (
-        <section id="experience" className="py-12 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 w-full">
+        <section id="experience" className="py-12 bg-gradient-to-r from-gray-500 to-gray-900 w-full gradient-background">
             <div className="container mx-auto">
                 <h2 className="text-4xl font-bold text-center mb-12 text-white">Experience</h2>
                 <div className="space-y-6">
                     
     
-                    <div className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-lg shadow-xl p-6">
+                    <div className="bg-gradient-to-r from-gray-600 to-gray-900 text-white rounded-lg shadow-xl p-6">
                         <h3 className="text-xl font-bold mb-2">Lead Engineer Developer: VEX Robotics</h3>
                         <p className="text-md mb-2">Dec 2021 - Present</p>
                         <ul className="list-disc list-inside">
@@ -20,7 +20,7 @@ const Experience: React.FC = () => {
                         </ul>
                     </div>
 
-                    <div className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white rounded-lg shadow-xl p-6">
+                    <div className="bg-gradient-to-r from-gray-600 to-gray-900 text-white rounded-lg shadow-xl p-6">
                         <h3 className="text-xl font-bold mb-2">Founder: Web and Mobile App Development</h3>
                         <p className="text-md mb-2">Dec 2022 - Present</p>
                         <ul className="list-disc list-inside">

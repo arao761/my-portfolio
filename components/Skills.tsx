@@ -5,7 +5,7 @@ type SkillTagProps = {
 };
 
 const SkillTag: React.FC<SkillTagProps> = ({ skill }) => (
-  <div className="bg-purple-200 text-purple-800 py-2 px-4 rounded-md shadow-md m-2 hover:bg-purple-300 cursor-default transition duration-300">
+  <div className="bg-gray-800 text-white py-2 px-4 rounded-md shadow-md m-2 hover:bg-gray-700 cursor-default transition duration-300">
     {skill}
   </div>
 );
@@ -18,7 +18,7 @@ const skills: string[] = [
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="py-12 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 w-full">
+    <section id="skills" className="bg-gradient-to-r from-gray-600 to-gray-900 text-white rounded-lg shadow-xl p-6 w-full">
       <div className="container mx-auto px-5">
         <h2 className="text-4xl font-bold text-center mb-12 text-white">Skills</h2>
         <div className="flex flex-wrap justify-center items-center">
