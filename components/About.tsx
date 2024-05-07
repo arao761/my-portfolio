@@ -3,7 +3,7 @@ import "@/app/globals.css";
 
 const About: React.FC = () => {
     return (
-        <section id="about" className="py-12 bg-gradient-to-r from-gray-500 to-gray-900 w-full">
+        <section id="about" className="py-12 bg-gradient-to-r from-gray-600 to-gray-900 w-full">
             <div className="container mx-auto px-4">
                 <h2 className="text-4xl font-bold text-center mb-8 text-white">About Me</h2>
                 <div className="text-white space-y-6">

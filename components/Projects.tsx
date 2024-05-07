@@ -12,13 +12,20 @@ const projects: Project[] = [
     title: "Ho-Ho-Hacks",
     description: "Use Java libaries to create a battle royale game that mimics Yoho-Ho-Ho. I worked to create the game logic and the UI.",
     tags: ["Java", "Graphics", "Animation"],
-    imageUrl: "https://source.unsplash.com/random/800x600?leopard"
+    imageUrl: "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/482/625/datas/full_width.png"
   },
   {
-    title: "",
-    description: "Created a curriculum teaching its 700+ students how to create OpenAI-powered chatbots. I also worked on the website and optimized the chatbot.",
-    tags: ["React", "Next.js", "OpenAI"],
-    imageUrl: "https://source.unsplash.com/random/800x600?education"
+    title: "Computational Modeling: Predicting the Optimal Launch Angle for a Parabolic Projectile",
+    description: "Created a computational model in Java to predict the optimal launch angle for a parabolic projectile. Used kinematics and physics principles to create the model.",
+    tags: ["Java", "Kinematics", "Computational Modeling", "Physics"],
+    imageUrl: "https://uploads-cdn.omnicalculator.com/images/projectile-motion/Ideal_projectile_motion_for_different_angles_res.png?width=425&enlarge=0&format=jpeg"
+  },
+
+  {
+    title: "3D Printed Robotic Finger",
+    description: "Designed and 3D printed a robotic finger that can be controlled using a servo motor. Used Arduino to control the servo motor. Aditionally, I used a potentiometer to control the angle of the finger. Finally, I made the finger autonomous by training the finger with a 3D convoluted neural network.", 
+    tags: ["Python", "Machine Learning", "TensorFlow", "Keras", "Neural Networks" , "Arduino", "3D Printing"],
+    imageUrl: "https://media.licdn.com/dms/image/D4E22AQH8WLtl1teJMQ/feedshare-shrink_1280/0/1711081875654?e=1718236800&v=beta&t=7aBzOHfOqPQmuRC2eGvSzppAeGd3NnHVT6lGOaj-s9o"
   },
 ];
 
