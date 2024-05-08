@@ -7,6 +7,7 @@ import Footer from '@/components/footer';
 import About from '@/components/About';
 import Spacing from '@/components/Spacing';
 import Projects from '@/components/Projects';
+import Chatbot from '@/components/chatbot';
 import { ThemeProvider } from "@/components/Themeprovider";
 import { ThemeProvider as NextThemeProvider } from "next-themes";
 import ThemeToggle from "@/components/Themetoggle";
@@ -24,6 +25,7 @@ export default function Home() {
                 <Projects />
                 <Awards />
                 <Skills />
+                <Chatbot />
                 <Spacing />
                 <Footer />
             </ThemeProvider>
