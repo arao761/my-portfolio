@@ -18,7 +18,7 @@ const skills: string[] = [
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="bg-gradient-to-r from-gray-600 to-gray-900 text-white rounded-lg shadow-xl p-6 w-full">
+    <section id="skills" className="bg-gradient-to-r from-gray-600 to-gray-900 text-white shadow-xl p-6 w-full">
       <div className="container mx-auto px-5">
         <h2 className="text-4xl font-bold text-center mb-12 text-white">Skills</h2>
         <div className="flex flex-wrap justify-center items-center">

@@ -38,7 +38,7 @@ const AwardModal: FC<AwardModalProps> = ({ award, onClose }) => {
   if (!award) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-white p-4 rounded-lg shadow-lg max-w-md w-full">
         <h2 className="text-2xl font-bold mb-2 text-purple-800">{award.title}</h2>
         <img src={award.imageUrl} alt={award.title} className="w-full h-auto mb-2" />
@@ -54,7 +54,7 @@ const Awards: FC = () => {
   const [selectedAward, setSelectedAward] = useState<Award | null>(null);
 
   return (
-    <section id="awards" className="bg-gradient-to-r from-gray-600 to-gray-900 text-white rounded-lg shadow-xl p-6 w-full">
+    <section id="awards" className="bg-gradient-to-r from-gray-600 to-gray-900 text-white shadow-xl p-6 w-full">
       <div className="container mx-auto px-5">
         <h2 className="text-4xl font-bold text-center mb-12 text-white">Awards</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
