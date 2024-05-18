@@ -7,30 +7,23 @@ import Footer from '@/components/footer';
 import About from '@/components/About';
 import Spacing from '@/components/Spacing';
 import Projects from '@/components/Projects';
-import Chatbot from '@/components/chatbot';
-import { ThemeProvider } from "@/components/Themeprovider";
-import { ThemeProvider as NextThemeProvider } from "next-themes";
-import ThemeToggle from "@/components/Themetoggle";
+//import { ThemeProvider } from "@/components/Themeprovider";
+//import { ThemeProvider as NextThemeProvider } from "next-themes";
+//import ThemeToggle from "@/components/Themetoggle";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
+      
+        <Homepage />
+        <About />
+        <Experience />
+        <Projects />
+        <Awards />
+        <Skills />
+        <Spacing />
+        <Footer />
 
-        <NextThemeProvider attribute="class">
-            <ThemeProvider>
-                <ThemeToggle />
-                <Homepage />
-                <About />
-                <Experience />
-                <Projects />
-                <Awards />
-                <Skills />
-                <Chatbot />
-                <Spacing />
-                <Footer />
-            </ThemeProvider>
-        </NextThemeProvider>
-  
     </main>
   );
 }

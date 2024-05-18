@@ -14,7 +14,7 @@ const awards: Award[] = [
   {
     title: 'Most Improved Musician',
     description: 'Awarded for being the most improved member in Wind Symphony.',
-    imageUrl: 'https://media.licdn.com/dms/image/D4E2DAQE-iJdcXHMjrg/profile-treasury-image-shrink_1280_1280/0/1711646390212?e=1715475600&v=beta&t=Vg8MYVRUaBBSHuBUX2LhxoVxsIXdassap-fpxhXdHHo',
+    imageUrl: '/Most Improved Musician.jpeg',
   },
   {
     title: 'VEX State Qualifiers',
