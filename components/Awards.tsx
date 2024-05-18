@@ -12,19 +12,19 @@ type Award = {
 // Sample awards data
 const awards: Award[] = [
   {
-    title: 'Most Improved Musician',
-    description: 'Awarded for being the most improved member in Wind Symphony.',
-    imageUrl: '/Most Improved Musician.jpeg',
+    title: `Most Improved Musician`,
+    description: `Awarded for being the most improved member in Wind Symphony.`,
+    imageUrl: `/Most Improved Musician.jpeg`,
   },
   {
-    title: 'VEX State Qualifiers',
-    description: 'Awarded for being 25/171 in the state for the skills competition, qualifying for the state competition held in Doswell, VA.',
-    imageUrl: 'https://www.robotevents.com/uploads/events/52164/736d5a920f9524cfa718cfb072f94835.png',
+    title: `VEX State Qualifiers`,
+    description: `Awarded for being 25/171 in the state for the skills competition, qualifying for the state competition held in Doswell, VA.`,
+    imageUrl: `https://www.robotevents.com/uploads/events/52164/736d5a920f9524cfa718cfb072f94835.png`,
   },
   {
-    title: 'The Aerospace Corporation',
-    description: 'Awarded for being one of the best Robotics and Intelligent Machine projects at an engineering competition.',
-    imageUrl: 'https://www.ee.ucla.edu/wp-content/uploads/ee/aerospace-general-contractor001.png',
+    title: `The Aerospace Corporation`,
+    description: `Awarded for being one of the best Robotics and Intelligent Machine projects at an engineering competition.`,
+    imageUrl: `https://www.ee.ucla.edu/wp-content/uploads/ee/aerospace-general-contractor001.png`,
   },
 ];
 
