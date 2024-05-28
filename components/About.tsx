@@ -8,10 +8,10 @@ const About: React.FC = () => {
                 <h2 className="text-4xl font-bold text-center mb-8 text-white">About Me</h2>
                 <div className="text-white space-y-6">
                     <p className="text-lg">
-                        Welcome to my portfolio! I’m passionate about software development and love to create innovative solutions.
+                        Welcome to my portfolio! I&apos;m passionate about software development and love to create innovative solutions.
                     </p>
                     <p className="text-lg">
-                        I have expertise in modern JavaScript frameworks and a strong background in UI/UX design. I'm also proficient in backend technologies and enjoy working in collaborative environments.
+                        I have expertise in modern JavaScript frameworks and a strong background in UI/UX design. I&apos;m also proficient in backend technologies and enjoy working in collaborative environments.
                     </p>
                     <p className="text-lg">
                         In my free time, I enjoy exploring new technologies and contributing to open-source projects. I thrive in team settings and believe in continuous learning and improvement.

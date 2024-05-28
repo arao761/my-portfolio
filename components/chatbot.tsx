@@ -16,7 +16,7 @@ export default function Chatbot() {
       style={{ zIndex: 1 }} // Adjusted z-index to be lower to allow modals to appear on top
     >
       <span className="text-6xl font-extrabold text-center text-transparent bg-clip-text bg-white mb-4 pb-2 block">
-        Ankit's AI
+        Ankit&apos;s AI
       </span>
 
       <section className="mb-4 flex-grow overflow-auto">
