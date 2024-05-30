@@ -22,7 +22,7 @@ const Header: React.FC = () => {
             </div>
 
             <div className="text-center">
-                <img src="https://media.licdn.com/dms/image/D4E03AQEtwmPBQtNGWA/profile-displayphoto-shrink_800_800/0/1711079713525?e=1717027200&v=beta&t=PYnauycIswjnLaLlN18bFLzJBdxlP838zN4VZSiqKsc" alt="Ankit Rao" className="w-40 h-40 rounded-full inline-block border-4 border-white shadow-xl" />
+                <img src="/Ankit Picture.jpeg" alt="Ankit Rao" className="w-40 h-40 rounded-full inline-block border-4 border-white shadow-xl" />
                 <h1 className="text-2xl font-medium leading-tight mt-3">Hello, I&apos;m</h1>
                 <h2 className="text-5xl font-bold leading-none mb-2 text-shadow-lg">Ankit Rao</h2>
                 <h3 className="text-2xl mb-4">Full-stack developer with a specialization in <span className="font-bold">AI</span> and <span className="font-bold">App Development</span></h3>
