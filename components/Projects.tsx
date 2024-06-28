@@ -25,7 +25,7 @@ const projects: Project[] = [
     title: "3D Printed Robotic Finger",
     description: "Designed and 3D printed a robotic finger that can be controlled using a servo motor. Used Arduino to control the servo motor. Aditionally, I used a potentiometer to control the angle of the finger. Finally, I made the finger autonomous by training the finger with a 3D convoluted neural network.", 
     tags: ["Python", "Machine Learning", "TensorFlow", "Keras", "Neural Networks" , "Arduino", "3D Printing"],
-    imageUrl: "https://media.licdn.com/dms/image/D4E22AQH8WLtl1teJMQ/feedshare-shrink_1280/0/1711081875654?e=1718236800&v=beta&t=7aBzOHfOqPQmuRC2eGvSzppAeGd3NnHVT6lGOaj-s9o"
+    imageUrl: "https://i1.wp.com/dangercreations.com/wp-content/uploads/2017/08/IMG_5857.jpg?fit=1200%2C900&ssl=1"
   },
 ];
 
