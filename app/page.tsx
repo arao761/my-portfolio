@@ -10,6 +10,7 @@ import Projects from '@/components/Projects';
 //import { ThemeProvider } from "@/components/Themeprovider";
 //import { ThemeProvider as NextThemeProvider } from "next-themes";
 //import ThemeToggle from "@/components/Themetoggle";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
         <Skills />
         <Spacing />
         <Footer />
-
+        <Analytics />
     </main>
   );
 }
