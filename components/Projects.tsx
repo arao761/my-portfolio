@@ -10,7 +10,7 @@ type Project = {
 const projects: Project[] = [
   {
     title: "Ho-Ho-Hacks",
-    description: "Use Java libaries to create a battle royale game that mimics Yoho-Ho-Ho. I worked to create the game logic and the UI.",
+    description: "Used Java libaries to create a battle royale game that mimics Yoho-Ho-Ho. I worked to create the game logic and the UI.",
     tags: ["Java", "Graphics", "Animation"],
     imageUrl: "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/002/482/625/datas/full_width.png"
   },
